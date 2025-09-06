@@ -1,28 +1,35 @@
 #include <stdio.h>
 
 int main(){
+    // Declaração de variaveis carta 1
 
-    char estado, nomeCidade[50];
-    char CodigoCarta[04];
-    int populacao, PontosTuristicos;
-    float Area, PIB;
+    char estado1, nomeCidade1[50];
+    char CodigoCarta1[04];
+    int populacao1, PontosTuristicos1;
+    float Area1, PIB1;
+    // Declaração de variaveis carta 2
+    char estado2, nomecidade2;
+    char codigocarta[04];
+    int populacao2, pontosturisticos2;
+    float area2, pib2;
 
-    printf("CARTA 1\n");
-    printf("DIGITE O ESTADO:\n");
-    scanf("%s", &estado);
+    // Entrada de dados cartas 1
+
+    printf("INSIRA OS DADOS DA CARTA 1\n");
+    printf("DIGITE O ESTADO DE A á H:\n");
+    scanf("%c", &estado1);
     printf("DIGITE O CÓDIGO DA CARTA:\n");
-    scanf("%s",&CodigoCarta);
+    scanf("%s",&CodigoCarta1);
     printf("DIGITE O NOME DA CIDADE:\n");
-    scanf("%d",&nomeCidade);
-    printf("DIGITE A POPULÇÃO:\n");
-    scanf(&populacao);
+    scanf("%d",&nomeCidade1);
+    printf("DIGITE A POPULAÇÃO:\n");
+    scanf("%d",&populacao1);
     printf("DIGITE A ÁREA:\n");
-    scanf("%f",&Area);
+    scanf("%f",&Area1);
     printf("DIGITE O PIB:\n");
-    scanf("%f",&PIB);
+    scanf("%f",&PIB1);
     printf("DIGITE O NÚMERO DE PONTOS TURÍSTICOS:\n");
-    scanf("%d",&PontosTuristicos);
+    scanf("%d",&PontosTuristicos1);
 
-    return 0;
 
 }
