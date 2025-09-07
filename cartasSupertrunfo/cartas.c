@@ -19,8 +19,28 @@ int main() {
     float area2;
     float pib2;
     int numPontosturisticos2;
+
+    //Entrada de dados carta1.
+
+    printf("Indira os dados da carta1.\n");
+    printf("Estado de A á H:\n");
+    scanf("%c", &estado1);
+    printf("Código da carta1:\n");
+    scanf("%s", &codigo1);
+    printf("Nome da Cidade:\n");
+    scanf("%s", &nomeCidade1);
+    printf("População:\n");
+    scanf("%d", &populacao1);
+    printf("Área em km^:\n");
+    scanf("%f", &area1);
+    printf("PIB:\n");
+    scanf("%f", &pib1);
+    printf("Número de pontos turísticos:\n");
+    scanf("%d", &NumPontosturisticos1);
+
+
+
     
-
-
+    return 0;
 
 }
