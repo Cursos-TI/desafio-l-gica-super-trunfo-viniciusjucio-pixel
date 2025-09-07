@@ -40,7 +40,7 @@ int main() {
 
     //Entrada de dados carta2.
     printf("Digite os dados da carta 2:\n");
-    printf("Estado:");
+    printf("Estado de A á H:");
     scanf("%c", &estado2);
     printf("Código da carta:");
     scanf("%s", &codigo2);
