@@ -22,7 +22,7 @@ int main() {
 
     //Entrada de dados carta1.
 
-    printf("Indira os dados da carta1.\n");
+    printf("Insira os dados da carta1.\n");
     printf("Estado de A á H:\n");
     scanf("%c", &estado1);
     printf("Código da carta1:\n");
@@ -37,6 +37,24 @@ int main() {
     scanf("%f", &pib1);
     printf("Número de pontos turísticos:\n");
     scanf("%d", &NumPontosturisticos1);
+
+    //Entrada de dados carta2.
+    
+    printf("Insira os dados da carta2.\n");
+    printf("Estado:\n");
+    scanf("%c", &estado2);
+    printf("Código da carta:\n");
+    scanf("%s", &codigo2);
+    printf("Nome da cidade:\n");
+    scanf("%s", &nomeCidade2);
+    printf("População:\n");
+    scanf("%d", &populacao2);
+    printf("Área em km^:\n");
+    scanf("%f", &area2);
+    printf("PIB:\n");
+    scanf("%f", &pib2);
+    printf("Número de pontos turísticos:\n");
+    scanf("%d", &numPontosturisticos2);
 
 
 
